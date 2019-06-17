@@ -1,5 +1,4 @@
 import React from "react";
-import Timer from "../Timer/Timer.js";
 
 const Scoreboard = props => {
   console.log(props);
@@ -7,7 +6,6 @@ const Scoreboard = props => {
     <div>
       <h3>Scoreboard</h3>
       <h2>Score: {props.data}</h2>
-      <Timer />
     </div>
   );
 };
